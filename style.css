@@ -1,0 +1,141 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+.hero-container{
+    background-image: url("/images/bg1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.heroh1 {
+    font-size: 70px;
+    font-family: "Myriad Pro";
+    color: rgb(48, 58, 137);
+    line-height: 1.023;
+    text-align: left;
+    
+    position: absolute;
+    left: 200.481px;
+    top: 250.576px;
+    z-index: 182;
+  }
+  .btn1 {
+    background-color: rgb(254, 95, 9);
+    position: absolute;
+    left: 200px;
+    top: 491px;
+    width: 290px;
+    height: 50px;
+    z-index: 183;
+    color: white;
+    border-radius: 30px;
+  }
+  .btn2 {
+    background-color: rgb(254, 95, 9);
+    position: absolute;
+    left: 550px;
+    top: 491px;
+    width: 290px;
+    height: 50px;
+    z-index: 183;
+    color: white;
+    border-radius: 30px;
+  }
+  .service-heading{
+    position: relative;
+    left: 200px;
+    margin-top: 30px;
+  }
+  .btn-service{
+    background-color: rgb(254, 95, 9);
+    color: white;
+  }
+  .service-box{
+    border: none;
+  }
+  .service-card1{
+   background-image: url("/images/serviceimg1.png");
+   background-size: cover;
+  }
+  .service-card2{
+    background-image: url("/images/serviceimg2.png");
+    background-size: cover;
+   }
+   .service-card3{
+    background-image: url("/images/serviceimg3.png");
+    background-size: cover;
+   }
+   .service-card4{
+    background-image: url("/images/serviceimg4.png");
+    background-size: cover;
+   }
+  .services img{
+    height: 20vh;
+    width: 70vw;
+    left: 100px;
+    border: none;
+  }
+  
+  .welcome-container{
+    background-image: url("images/bg2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 30px 30px 30px 100px;
+    margin-top: 50px;
+  }
+  .btn-welcome{
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  .coreValue-conatiner{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+.coreValues-boxes{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.core-info{
+    margin-left: 100px;
+}
+  .core-box{
+    background-color: rgb(234, 228, 228);
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    margin-left: 30px;
+    padding: 30px;
+  }
+  .testimonal_container{
+    
+    margin: 50px 30px 30px 100px;
+  }
+
+  .testimonal{
+    height: 25vh;
+    width: 80vw;
+    
+    display: flex;
+    margin-left: 150px;
+
+  }
+  .testimonal_text{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-left: 50px;
+  }
+  .footer-container{
+    background-color: rgb(212, 208, 208);
+  }
+  
